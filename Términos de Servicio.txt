@@ -1,0 +1,29 @@
+Términos de Servicio
+
+**Última actualización:** 04 de marzo del 2025
+
+Bienvenido a nuestra aplicación de integración con TikTok. Al utilizar nuestros servicios, aceptas los siguientes términos:
+
+## 1. Aceptación de los términos
+
+Al acceder a nuestra aplicación, aceptas cumplir con estos términos de servicio y las políticas de TikTok. Si no estás de acuerdo, por favor no uses la aplicación.
+
+## 2. Uso de la API de TikTok
+
+Nuestra aplicación accede a datos de TikTok con tu autorización. Solo recopilamos la información necesaria para mostrar estadísticas y contenido en tu panel.
+
+## 3. Privacidad y seguridad
+
+Nos comprometemos a proteger tu información. Los datos recopilados solo se utilizan para los fines previstos y no se comparten con terceros sin tu consentimiento.
+
+## 4. Responsabilidades del usuario
+
+Te comprometes a usar la aplicación de manera ética y respetar las políticas de TikTok. No nos hacemos responsables del uso indebido de los datos.
+
+## 5. Modificaciones a los términos
+
+Podemos actualizar estos términos en cualquier momento. Te notificaremos de cambios importantes.
+
+## 6. Contacto
+
+Si tienes preguntas, contáctanos en: [williamdavid883@gmail.com](mailto\:williamdavid883@gmail.com)
