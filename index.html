@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido a tu integración TikTok</title>
+    <title>Integración TikTok</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a la integración con TikTok</h1>
+        <div class="container">
+            <h1>Bienvenido a la integración con TikTok</h1>
+            <p>Conecta tu cuenta y explora tus estadísticas.</p>
+        </div>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="about">
             <h2>Sobre la aplicación</h2>
-            <p>Esta aplicación te permite visualizar estadísticas de tu cuenta de TikTok, incluyendo publicaciones, likes, comentarios y más.</p>
+            <p>Esta aplicación te permite visualizar estadísticas detalladas de tu cuenta de TikTok: publicaciones, likes, comentarios, y más. Analiza tu rendimiento y mejora tu presencia en la plataforma.</p>
+            <button onclick="mostrarEstadisticas()">Ver Estadísticas</button>
+            <div id="estadisticas" style="display: none;">
+                <h3>Estadísticas</h3>
+                <p>Aquí aparecerán tus métricas cuando se conecte la API.</p>
+            </div>
         </section>
-        <section>
+        <section class="links">
             <h2>Enlaces importantes</h2>
             <ul>
                 <li><a href="./Términos de Servicio.html">Términos de Servicio</a></li>
@@ -25,7 +33,17 @@
         </section>
     </main>
     <footer>
-        <p>© 2025 Tu Nombre o Empresa</p>
+        <div class="container">
+            <p>© 2025 Tactica SAS | Todos los derechos reservados</p>
+        </div>
     </footer>
+
+    <script>
+        function mostrarEstadisticas() {
+            const statsDiv = document.getElementById('estadisticas');
+            statsDiv.style.display = statsDiv.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
 </body>
 </html>
+
